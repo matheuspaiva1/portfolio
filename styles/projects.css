@@ -20,23 +20,20 @@ a {
   color: #fff;
 }
 
-.line-b {
+hr {
   border: #a3a3a3 0.01em solid;
 
-  width: 67.9em;
-  height: 0.01rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-left: 8em;
-  margin-top: 0.4em;
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 0.1px;
 
 }
 
 .titleDesc{
-  margin-left: 8em;
+  margin-left: 5em;
   margin-top: 1em;
 }
 
@@ -62,7 +59,7 @@ a {
   justify-content: center;
   align-items: center;
 
-  gap: 17rem;
+  gap: 23rem;
 }
 .main-card {
   display: grid;
@@ -114,17 +111,15 @@ img {
 }
 
 
-.line-f {
+.line-f hr{
   border: #a3a3a3 0.01em solid;
 
-  width: 67.9em;
-  height: 0.01rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-left: 8em;
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 0.1px;
   margin-top: 3em;
 
 }
@@ -150,4 +145,48 @@ footer {
   display: flex;
   justify-content:center;
   gap: 0.5em;
+}
+
+@media screen and (max-width: 425px) {
+  .titulo {
+  }
+  hr {
+    width: 95%;
+  }
+
+  .titleDesc{
+    margin: 1rem ;
+  }
+
+  .card {
+    margin: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 24rem;
+  }
+  
+  .conj-cards {
+    display: block;
+    margin-left: 0.1rem;
+  }
+
+  .image {
+    margin-right: 5em;
+    margin-bottom: 0;
+    background-color: #d9d9d9de;
+    width: 25.7rem;
+  }
+  
+
+  
+
+  
+
+  .line-f hr {
+    width: 95%;
+  }
+
+  
+  
 }

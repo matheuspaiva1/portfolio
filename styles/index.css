@@ -1,6 +1,5 @@
 * {
   padding: 0;
-
 }
 
 header {
@@ -15,21 +14,22 @@ body {
 
 }
 
-.line-b {
+hr {
   border: #a3a3a3 0.01em solid;
 
-  width: 100%;
-  height: 0.01rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-top: 0.4em;
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 0.1px;
 
 }
 
 .body {
+}
+
+.descImg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,11 +59,14 @@ body {
 
 button{
   font-weight: bold;
-  width: 49.8em;
+  width: 42em;
   height: 3em;
   border-radius: 10px;
   border: none;
   color: #540085;
+
+  margin-left: 5.9em;
+
 }
 
 button:hover{
@@ -82,16 +85,15 @@ img {
 }
 
 
-.line-f {
+.line-f hr{
   border: #a3a3a3 0.01em solid;
 
-  width: 100%;
-  height: 0.01rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 0.1px;
   margin-top: 3em;
 
 }
@@ -122,4 +124,47 @@ footer {
   display: flex;
   justify-content:center;
   gap: 0.5em;
+}
+
+@media screen and (max-width: 425px) {
+  .titulo {
+  }
+  hr {
+    width: 95%;
+  }
+  .descImg {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .description{
+    margin: 1rem 0rem 0rem 0.5rem;
+  }
+
+  .image {
+  
+  }
+  img {
+    height: 25.5em;
+    border-radius: 200px;
+  }
+
+  button{
+    font-weight: bold;
+    width: 25em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    color: #540085;
+
+    margin-top: 1rem;
+    margin-left: 2.7rem;
+  }
+
+  .line-f hr {
+    width: 95%;
+  }
+
+  
+  
 }
