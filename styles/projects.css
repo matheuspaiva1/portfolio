@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin-left: 0;
+}
+
+header {
+  font-family: "Caveat", cursive;
+
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #540085;
+  color: #fff;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.line-b {
+  border: #a3a3a3 0.01em solid;
+
+  width: 67.9em;
+  height: 0.01rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 8em;
+  margin-top: 0.4em;
+
+}
+
+.titleDesc{
+  margin-left: 8em;
+  margin-top: 1em;
+}
+
+.little-desc {
+  font-style: italic;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 25.5rem;
+}
+.card a {
+  color: #540085;
+
+  text-decoration: none;
+
+}
+
+.conj-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 17rem;
+}
+.main-card {
+  display: grid;
+  gap: 2rem;
+}
+
+.card a strong{
+  font-size: 0.8em;
+  color: #707070;
+  padding: 0 0 0 0.8rem;
+}
+
+.card a h2{
+  margin: 0;
+  color: #1e1e1e;
+  
+  font-size: 1em;
+  padding: 0.5rem 0 0 0.8em;
+
+}
+
+.desc {
+  margin: 0;
+  background-color: #d9d9d9de;
+  width: 25.7rem;
+  height: 4rem;
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.image {
+  margin-right: 5em;
+  margin-bottom: 0;
+  background-color: #d9d9d9de;
+  width: 25.7rem;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  height: 18em;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card:hover {
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.432);
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.line-f {
+  border: #a3a3a3 0.01em solid;
+
+  width: 67.9em;
+  height: 0.01rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 8em;
+  margin-top: 3em;
+
+}
+
+footer {
+  font-family: "Caveat", cursive;
+}
+
+.container-footer {
+  align-items: center;
+  justify-content: center;
+  display: block;
+
+  margin-top: 0.5em;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  justify-content:center;
+  gap: 0.5em;
+}
